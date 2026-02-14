@@ -1,0 +1,77 @@
+{
+  "info": {
+    "name": "Reco System",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create User",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "http://localhost:8080/api/users",
+        "body": {
+          "mode": "raw",
+          "raw": "{\"externalId\": \"matheus\"}"
+        }
+      }
+    },
+    {
+      "name": "List Contents",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:8080/api/contents"
+      }
+    },
+    {
+      "name": "Recommend",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:8080/api/recommendations/1"
+      }
+    },
+    {
+      "name": "Interact View",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "http://localhost:8080/api/interactions",
+        "body": {
+          "mode": "raw",
+          "raw": "{\"userId\": 1, \"contentId\": 1, \"kind\": \"VIEW\", \"value\": 0.9}"
+        }
+      }
+    },
+    {
+      "name": "More Like This",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:8080/api/recommendations/1/more-like/1"
+      }
+    },
+    {
+      "name": "Trending 24h",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:8080/api/trending"
+      }
+    },
+    {
+      "name": "Dashboard",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:8080/api/dashboard"
+      }
+    }
+  ]
+}
