@@ -200,3 +200,23 @@ Swagger:
 - `sql/analysis.sql`: queries analíticas
 - `postman_collection.json`: fluxos completos
 - `cache_hit_rate.png` e `openai_cost.png`: gráficos de exemplo
+
+
+## 11) Prints de funcionamento
+
+![Inicio reco](https://github.com/user-attachments/assets/f48b5a50-4d7a-4da0-9fd2-c4a42323fca2)
+
+![Id reco](https://github.com/user-attachments/assets/d823fbd3-209c-42bd-94c3-da4b4eecd0e9)
+
+![analsys](https://github.com/user-attachments/assets/31b29c88-cab3-4a6f-97dc-ff922b7b5aeb)
+
+![recomendation](https://github.com/user-attachments/assets/0aa4587e-6f98-44f1-9f85-a6c9daaebcb6)
+
+![mores likes](https://github.com/user-attachments/assets/1fa06247-7afc-422d-b8c7-0cd571432e22)
+
+![recomendatio true](https://github.com/user-attachments/assets/c8595d9f-ffa9-45ad-9f49-5226c721b3c5)
+
+![Recomendation true v2](https://github.com/user-attachments/assets/62b6a3c3-42d6-40a2-ada9-1cb42515e326)
+
+
+
